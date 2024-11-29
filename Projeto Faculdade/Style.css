@@ -1,0 +1,125 @@
+body{
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: rgb(34, 32, 32);
+ color: rgb(255, 255, 255);
+ text-align: center;
+}
+nav {
+    background-color: #000000;
+    padding: 20px 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+nav ul li a:hover {
+color: rgb(143, 7, 7);
+}
+#content {
+    padding: 40px;
+}
+.section{
+    display: none;
+    padding: 40px 20px;
+}
+.section.active {
+    display: block;
+}
+.Historia h1 {
+    text-align: left;
+}
+.Historia h2{
+    text-align: left;
+    font-size: 20px;
+}
+.Historia p {
+    text-align: left;
+}
+.Historia li {
+    text-align: left;
+}
+.Regras h1 {
+    text-align: left;
+}
+.Regras h2 {
+    text-align: left;
+    font-size: 20px;
+}
+.Regras p {
+    text-align: left;
+}
+.Noticias h2 {
+    text-align: left;
+}
+.Noticias p {
+    text-align: left;
+}
+.Links h1 { 
+    text-align: left;
+    font-size: 40px
+}
+.Links p{
+    text-align: left;
+}
+.Links h2 {
+    text-align: left;
+    font-size: 28px;
+}
+.Links h3 {
+    text-align: left;
+    font-size: 22px;
+}
+.Links li {
+    text-align: left;
+    font-size: 18px;
+}
+.Links a {
+    text-align: left;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #d10000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.Links p2 :hover{
+    background-color: #470000;
+}
+.Tributo h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.Tributo h2 {
+    text-align: center;
+    font-size: 28px;
+}
+.Tributo h3{
+    font-size: 22px;
+    font-family: monospace;
+}
+.Tributo p {
+    text-align: left;
+}
+.Tabelas h1 {
+    font-size: 40px;
+}
+.Tabelas h2{
+    text-align: left;
+}
+.Tabelas p {
+    text-align: left;
+}
